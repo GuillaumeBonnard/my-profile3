@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(76, 84, 33);
+    color: rgb(41, 33, 84);
+    font-family: Courier ;
+    font-size: 17px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+a{
+    /* background-color: rgb(76, 84, 33);
+    color: rgb(255, 255, 255);
+    border-radius: 30px; */
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+
+.container{
+    width: 700px;
+ margin: 0 auto;
+}
+
+.section {
+    margin: 16px 0;
+    transition: all .3s ease-in-out;
+   
+}
+
+
+.section:hover {
+    margin: 16px 0;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.profil{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: solid 3px black;
+}
+
+.experience{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: solid 3px black;
+}
+
+.nature {
+    background-color: white;
+    border-radius: 30px;
+    border: solid 3px black;
+}
+
+.passion{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: solid 3px black;
+}
+
+.social-media{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: solid 3px black;
+    height: 140px;
+}
+
+i{
+    color: black;
+    font-size: 48px;
+}
+
+.button {
+    color: rgb(76, 84, 33);
+    font-size: 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.button:hover{
+    color: white;
+    background-color: rgb(76, 84, 33);
+}
+
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 12px;
+}
+
+
+@media (max-width: 700px){
+
+    .container{
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .container{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
